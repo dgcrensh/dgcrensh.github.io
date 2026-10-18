@@ -1,0 +1,1843 @@
+{
+  "formatVersion": "1.4",
+  "name": "Untitled",
+  "viewport": { "id": 1, "width": 1920, "height": 1080, "background": "#FFFFFFFF" },
+  "palette": [],
+  "globalColors": [],
+  "references": [],
+  "opening": {
+    "layers": [
+      {
+        "id": 3,
+        "name": "Layer 1",
+        "transform": { "position": [63.2736, 162.8504], "pivot": [347.1454, 415.144] },
+        "shapes": [
+          {
+            "id": 2,
+            "closed": true,
+            "text": { "string": "ObservationID", "weight": 800, "size": 200, "align": "center", "width": 1378.6274 },
+            "fill": "#00374AFF",
+            "stroke": { "color": "#222222FF", "width": 3 },
+            "transform": { "position": [207.4127, 137.1496], "pivot": [675.3188, 108] },
+            "points": []
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Layer 2",
+        "transform": { "position": [-29.4697, 0], "pivot": [1397.4821, 713.5175] },
+        "shapes": [
+          {
+            "id": 4,
+            "closed": true,
+            "text": {
+              "string": "Cross-sensor probabilistic identity tagging using a committee of experts",
+              "size": 68,
+              "align": "center",
+              "width": 1437.5668
+            },
+            "fill": "#474747FF",
+            "transform": { "position": [270.6863, 540], "pivot": [689.3137, 81.6] },
+            "points": []
+          }
+        ]
+      }
+    ]
+  },
+  "sequences": [
+    {
+      "id": 8,
+      "keyframes": [
+        {
+          "id": 9,
+          "transition": { "duration": 0.5, "curve": "ease-out" },
+          "changes": [
+            {
+              "create": {
+                "id": 11,
+                "name": "Layer 3",
+                "transform": { "position": [78.5313, 51.0546], "pivot": [731.8858, 68.9826] },
+                "shapes": [
+                  {
+                    "id": 10,
+                    "closed": true,
+                    "text": {
+                      "string": "Probabilistic attribute reconciliation",
+                      "weight": 800,
+                      "size": 96,
+                      "align": "center",
+                      "width": 1703.8829
+                    },
+                    "fill": "#00374AFF",
+                    "transform": { "position": [1936.3534, 32.7348], "pivot": [852.0761, 408.8626] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 5
+            },
+            {
+              "create": {
+                "id": 13,
+                "name": "Layer 4",
+                "transform": { "position": [1858.1608, 0], "scale": [0.0001, 1], "pivot": [198.4737, 210] },
+                "shapes": [
+                  {
+                    "id": 12,
+                    "closed": false,
+                    "fill": "#00374AFF",
+                    "stroke": { "color": "#00374AFF", "width": 9, "cap": "square" },
+                    "transform": { "position": [1906.8261, -3.533], "pivot": [960.1347, 496.185] },
+                    "points": [
+                      { "id": 14, "p": [150, 210], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 15, "p": [246.9473, 210], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 11
+            },
+            {
+              "create": {
+                "id": 17,
+                "name": "Layer 5",
+                "transform": { "pivot": [1015.1916, 272.0536] },
+                "shapes": [
+                  {
+                    "id": 16,
+                    "closed": true,
+                    "text": {
+                      "string": "Every sensor learns the same set of prescribed attributes. The probability that a new observation has the same identity as a previous observation is defined by the distance between measurements of their real-world attributes",
+                      "weight": 700,
+                      "weights": [
+                        { "start": 59, "length": 165, "weight": 400 }
+                      ],
+                      "size": 48,
+                      "width": 809.5497
+                    },
+                    "fill": "#474747FF",
+                    "transform": { "position": [2051.5058, 289.4163], "pivot": [815.455, 203.2357] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 13
+            },
+            {
+              "create": {
+                "id": 19,
+                "name": "Layer 6",
+                "transform": { "position": [-16.5265, 17.1179], "pivot": [1957.748, 325.8667] },
+                "shapes": [
+                  {
+                    "id": 18,
+                    "closed": true,
+                    "math": {
+                      "source": "\\bar{p} = \\mathbf{w}^\\top \\mathbf{p} = \\langle \\mathbf{w}, \\mathbf{p} \\rangle\n"
+                    },
+                    "fill": "#474747FF",
+                    "transform": { "position": [3349.8497, 562.9128], "scale": [0.6259, 0.6259], "pivot": [-486.5036, -237.9429] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 17
+            },
+            {
+              "create": {
+                "id": 21,
+                "name": "Layer 7",
+                "transform": { "position": [17.5828, 37.9437], "pivot": [1622.3654, 335.7426] },
+                "shapes": [
+                  {
+                    "id": 20,
+                    "closed": true,
+                    "math": { "source": "s(o)=1-\\frac{|o_0-o|}{o_0}" },
+                    "fill": "#474747FF",
+                    "transform": { "position": [3179.9164, 211.7512], "scale": [0.7235, 0.7235], "pivot": [-312.9556, 280.9007] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 19
+            },
+            {
+              "create": {
+                "id": 23,
+                "name": "Layer 8",
+                "transform": { "pivot": [553.3575, 984.0282] },
+                "shapes": [
+                  {
+                    "id": 22,
+                    "closed": true,
+                    "text": {
+                      "string": "Two sensors of unrelated types can still agree on a target’s identity because they agree on what attributes it has in the real world.",
+                      "weight": 700,
+                      "weights": [
+                        { "start": 0, "length": 133, "weight": 400 }
+                      ],
+                      "size": 48,
+                      "width": 1667.531
+                    },
+                    "fill": "#474747FF",
+                    "transform": { "position": [2051.5058, 786.3146], "pivot": [815.455, -293.6626] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 21
+            },
+            {
+              "set": 2,
+              "props": { "transform.position": [-1505.6827, 130.0989], "transform.pivot": [689.3137, 201.6] }
+            },
+            {
+              "set": 4,
+              "props": { "transform.position": [-1442.4091, 532.9493], "transform.pivot": [718.7834, -38.4] }
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "transition": { "duration": 0.5, "curve": "ease-out" },
+          "changes": [
+            { "delete": 3 },
+            { "delete": 5 },
+            {
+              "set": 10,
+              "props": { "transform.position": [29.3926, 35.7654] }
+            },
+            {
+              "set": 13,
+              "props": { "transform.position": [-48.6033, 0] }
+            },
+            {
+              "set": 12,
+              "props": { "transform.position": [-0.1347, -0.5024] }
+            },
+            {
+              "set": 16,
+              "props": { "transform.position": [144.545, 292.447] }
+            },
+            {
+              "set": 19,
+              "props": { "transform.position": [-54.5768, 37.553] }
+            },
+            {
+              "set": 18,
+              "props": { "transform.position": [1442.8889, 565.9435] }
+            },
+            {
+              "set": 21,
+              "props": { "transform.position": [-20.4675, 44.5252] }
+            },
+            {
+              "set": 20,
+              "props": { "transform.position": [1272.9556, 214.7819] }
+            },
+            {
+              "set": 22,
+              "props": { "transform.position": [144.545, 789.3452] }
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "transition": { "duration": 0.5, "curve": "ease-out" },
+          "changes": [
+            {
+              "set": 13,
+              "props": { "transform.position": [0.0766, 0], "transform.scale": [1.0016, 1] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "keyframes": [
+        {
+          "id": 29,
+          "transition": { "duration": 0.5, "curve": [0, -0.0045, 1, -0.0091] },
+          "changes": [
+            {
+              "create": {
+                "id": 31,
+                "name": "Layer 7 2",
+                "transform": { "position": [-21.4575, 3.0547], "scale": [1, 0.7852], "pivot": [554.8154, 649.6288] },
+                "shapes": [
+                  {
+                    "id": 30,
+                    "closed": true,
+                    "fill": "#EBEBEB00",
+                    "transform": { "position": [4.4837, 95.1377], "pivot": [976.9738, 649.6288] },
+                    "points": [
+                      { "id": 32, "p": [157.0352, 332.0876], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 33, "p": [952.5955, 332.0876], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 34, "p": [952.5955, 967.17], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 35, "p": [157.0352, 967.17], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 23
+            },
+            {
+              "create": {
+                "id": 40,
+                "name": "Layer 7 2 2",
+                "transform": { "position": [822.8594, 3.0547], "scale": [1, 0.7852], "pivot": [554.8154, 649.6288] },
+                "shapes": [
+                  {
+                    "id": 41,
+                    "closed": true,
+                    "fill": "#EBEBEB00",
+                    "transform": { "position": [4.4837, 95.1377], "pivot": [132.6569, 649.6288] },
+                    "points": [
+                      { "id": 42, "p": [157.0352, 332.0876], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 43, "p": [952.5955, 332.0876], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 44, "p": [952.5955, 967.17], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 45, "p": [157.0352, 967.17], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 31
+            },
+            {
+              "create": {
+                "id": 47,
+                "name": "Layer 9",
+                "transform": { "position": [-70.4047, 80.5913], "pivot": [556.7102, 395.4607] },
+                "shapes": [
+                  {
+                    "id": 46,
+                    "closed": true,
+                    "fill": "#EBEBEB00",
+                    "transform": { "position": [51.5361, -118.4447], "pivot": [556.7102, 395.4607] },
+                    "points": [
+                      {
+                        "id": 48,
+                        "p": [556.7102, 307.0667],
+                        "in": [-48.8186, 0],
+                        "out": [48.8186, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 49,
+                        "p": [645.1041, 395.4607],
+                        "in": [0, -48.8186],
+                        "out": [0, 48.8186],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 50,
+                        "p": [556.7102, 483.8547],
+                        "in": [48.8186, 0],
+                        "out": [-48.8186, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 51,
+                        "p": [468.3162, 395.4607],
+                        "in": [0, 48.8186],
+                        "out": [0, -48.8186],
+                        "symmetric": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              "after": 40
+            },
+            {
+              "create": {
+                "id": 52,
+                "name": "Layer 9 2",
+                "transform": { "position": [773.9122, 80.5913], "pivot": [556.7102, 395.4607] },
+                "shapes": [
+                  {
+                    "id": 53,
+                    "closed": true,
+                    "fill": "#EBEBEB00",
+                    "transform": { "position": [51.5361, -118.4447], "pivot": [556.7102, 395.4607] },
+                    "points": [
+                      {
+                        "id": 54,
+                        "p": [556.7102, 307.0667],
+                        "in": [-48.8186, 0],
+                        "out": [48.8186, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 55,
+                        "p": [645.1041, 395.4607],
+                        "in": [0, -48.8186],
+                        "out": [0, 48.8186],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 56,
+                        "p": [556.7102, 483.8547],
+                        "in": [48.8186, 0],
+                        "out": [-48.8186, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 57,
+                        "p": [468.3162, 395.4607],
+                        "in": [0, 48.8186],
+                        "out": [0, -48.8186],
+                        "symmetric": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              "after": 47
+            },
+            {
+              "set": 16,
+              "props": { "transform.position": [107.9239, 1099.8108], "transform.pivot": [833.7655, 306.0491] }
+            },
+            {
+              "set": 19,
+              "props": { "transform.position": [3.6147, 167.6821] }
+            },
+            {
+              "set": 18,
+              "props": { "transform.position": [1395.3236, 1311.8558], "transform.pivot": [-457.2489, -73.678] }
+            },
+            {
+              "set": 21,
+              "props": { "transform.position": [0, 0] }
+            },
+            {
+              "set": 20,
+              "props": { "transform.position": [1229.3368, 982.8535], "transform.pivot": [-287.6474, 423.0064] }
+            },
+            {
+              "set": 22,
+              "props": { "transform.position": [107.9239, 1596.709], "transform.pivot": [833.7655, -190.8491] }
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "transition": { "duration": 0.5, "curve": "ease-in" },
+          "changes": [
+            { "delete": 17 },
+            { "delete": 19 },
+            { "delete": 21 },
+            { "delete": 23 },
+            {
+              "create": {
+                "id": 66,
+                "name": "Layer 8",
+                "transform": { "pivot": [1384.0024, 356.2916] },
+                "shapes": [
+                  {
+                    "id": 65,
+                    "closed": false,
+                    "stroke": { "color": "#FFFFFF00", "width": 15, "cap": "square" },
+                    "transform": { "position": [-1.8439, 1.3157] },
+                    "points": [
+                      { "id": 67, "p": [1349.3107, 316.9308], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 68, "p": [1418.694, 395.6525], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 52
+            },
+            {
+              "create": {
+                "id": 69,
+                "name": "Layer 8 2",
+                "transform": { "pivot": [1394.0024, 366.2916] },
+                "shapes": [
+                  {
+                    "id": 70,
+                    "closed": false,
+                    "stroke": { "color": "#FFFFFF00", "width": 15, "cap": "square" },
+                    "transform": { "position": [-11.8439, -8.6843] },
+                    "points": [
+                      { "id": 71, "p": [1359.3107, 326.9308], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 72, "p": [1428.694, 405.6525], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 66
+            },
+            {
+              "create": {
+                "id": 80,
+                "name": "Layer 7",
+                "transform": { "position": [-2.6625, -14.412], "pivot": [546.8582, 372.0194] },
+                "shapes": [
+                  {
+                    "id": 81,
+                    "closed": false,
+                    "stroke": { "color": "#FFFFFF00", "width": 15, "cap": "square", "join": "miter" },
+                    "transform": { "position": [-0.8301, 0.0262], "pivot": [541.3341, 371.9932] },
+                    "points": [
+                      { "id": 82, "p": [508.5762, 387.3717], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 83, "p": [528.4616, 406.3547], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 84, "p": [574.1398, 338.7201], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 69
+            },
+            {
+              "create": {
+                "id": 86,
+                "name": "Layer 10",
+                "transform": { "pivot": [580.0441, 634.791] },
+                "shapes": [
+                  {
+                    "id": 85,
+                    "closed": true,
+                    "text": {
+                      "string": "Easy to implement\n\nGood performance distinguishing substantially different targets\n\nDifferent sensors reliably agree on identity",
+                      "weight": 500,
+                      "size": 48,
+                      "width": 734.3041
+                    },
+                    "fill": "#47474700",
+                    "transform": { "position": [175.2693, 519.591], "pivot": [404.7749, 115.2] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 80
+            },
+            {
+              "create": {
+                "id": 89,
+                "name": "Layer 10 2",
+                "transform": { "pivot": [1404.7736, 715.8314] },
+                "shapes": [
+                  {
+                    "id": 90,
+                    "closed": true,
+                    "text": {
+                      "string": "Most of the information sensors collect can’t contribute\n\nEntire system is limited by the lowest-resolution sensor\n\nAttributes are hand-picked",
+                      "weight": 500,
+                      "size": 48,
+                      "width": 734.3041
+                    },
+                    "fill": "#47474700",
+                    "transform": { "position": [1025.7198, 519.591], "pivot": [367.1521, 201.6] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 86
+            },
+            {
+              "set": 30,
+              "props": { "fill": "#EBEBEBFF" }
+            },
+            {
+              "set": 41,
+              "props": { "fill": "#EBEBEBFF" }
+            },
+            {
+              "set": 46,
+              "props": { "fill": "#38571A81" }
+            },
+            {
+              "set": 53,
+              "props": { "fill": "#83110081" }
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "transition": { "duration": 0.5, "curve": "ease" },
+          "changes": [
+            { "delete": 69 },
+            {
+              "create": { "id": 77, "p": [1418.694, 316.9308], "in": [0, 0], "out": [0, 0], "smooth": false },
+              "in": 65,
+              "after": 67
+            },
+            {
+              "create": { "id": 78, "p": [1349.3107, 395.6525], "in": [0, 0], "out": [0, 0], "smooth": false },
+              "in": 65,
+              "after": 77
+            },
+            {
+              "set": 65,
+              "props": { "stroke.color": "#FFFFFFFF", "transform.pivot": [1384.0024, 356.2916] }
+            },
+            {
+              "set": 67,
+              "props": { "stroked": false }
+            },
+            {
+              "set": 81,
+              "props": { "stroke.color": "#FFFFFFFF" }
+            },
+            {
+              "set": 85,
+              "props": { "fill": "#474747FF" }
+            },
+            {
+              "set": 90,
+              "props": { "fill": "#474747FF" }
+            },
+            { "order": [68, 67, 77, 78], "in": 65 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "keyframes": [
+        {
+          "id": 94,
+          "transition": { "duration": 0.2, "curve": "ease-in" },
+          "changes": [
+            {
+              "create": {
+                "id": 165,
+                "closed": true,
+                "image": { "src": "images/b49e1a444efbb917.png" },
+                "transform": { "position": [479.4187, 1039.4792], "scale": [0.2678, 0.2682], "pivot": [1228.0889, 445.5094] },
+                "points": [
+                  { "id": 166, "p": [924.0889, 275.0094], "in": [0, 0], "out": [0, 0], "smooth": false },
+                  { "id": 167, "p": [1532.0889, 275.0094], "in": [0, 0], "out": [0, 0], "smooth": false },
+                  { "id": 168, "p": [1532.0889, 616.0094], "in": [0, 0], "out": [0, 0], "smooth": false },
+                  { "id": 169, "p": [924.0889, 616.0094], "in": [0, 0], "out": [0, 0], "smooth": false }
+                ]
+              },
+              "in": 13,
+              "after": 12
+            },
+            {
+              "create": {
+                "id": 170,
+                "closed": true,
+                "image": { "src": "images/56c6442d3eb848e0.png" },
+                "transform": { "position": [1585.689, 782.043], "scale": [0.3073, 0.3078], "pivot": [-625.8614, 762.8131] },
+                "points": [
+                  { "id": 171, "p": [640.1866, 417.8117], "in": [0, 0], "out": [0, 0], "smooth": false },
+                  { "id": 172, "p": [1264.1866, 417.8117], "in": [0, 0], "out": [0, 0], "smooth": false },
+                  { "id": 173, "p": [1264.1866, 718.8117], "in": [0, 0], "out": [0, 0], "smooth": false },
+                  { "id": 174, "p": [640.1866, 718.8117], "in": [0, 0], "out": [0, 0], "smooth": false }
+                ]
+              },
+              "in": 13,
+              "after": 165
+            },
+            {
+              "create": {
+                "id": 180,
+                "name": "Layer 19",
+                "transform": { "position": [-526.3328, 8.4221], "pivot": [1700, 471.1597] },
+                "shapes": [
+                  {
+                    "id": 175,
+                    "closed": true,
+                    "image": { "src": "images/f2e8002907074a01.png" },
+                    "transform": { "position": [2822.8201, 807.044], "scale": [0.2287, 0.2287], "pivot": [-1861.6977, 737.812] },
+                    "points": [
+                      { "id": 176, "p": [1296.3065, 236.6603], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 177, "p": [1529.2824, 236.6603], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 178, "p": [1529.2824, 776.8945], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 179, "p": [1296.3065, 776.8945], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 13
+            },
+            {
+              "create": {
+                "id": 187,
+                "name": "Layer 19 2",
+                "transform": { "position": [-10, 407.5175], "pivot": [1710, 481.1597] },
+                "shapes": [
+                  {
+                    "id": 188,
+                    "closed": true,
+                    "image": { "src": "images/f2e8002907074a01.png" },
+                    "transform": { "position": [2789.0947, 2181.4132], "scale": [0.2287, 0.2287], "pivot": [-1817.9723, -1044.0747] },
+                    "points": [
+                      { "id": 189, "p": [1340.0319, 280.3857], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 190, "p": [1573.0078, 280.3857], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 191, "p": [1573.0078, 820.6199], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 192, "p": [1340.0319, 820.6199], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 180
+            },
+            {
+              "create": {
+                "id": 131,
+                "name": "Layer 16",
+                "transform": { "pivot": [1173.6673, 388.3658] },
+                "shapes": [
+                  {
+                    "id": 126,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "transform": { "position": [9.9987, 1017.0973], "pivot": [951.1237, 527.7587] },
+                    "points": [
+                      {
+                        "id": 127,
+                        "p": [1173.6673, 383.9258],
+                        "in": [-4.4388, 0],
+                        "out": [4.4388, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 128,
+                        "p": [1181.7044, 391.9629],
+                        "in": [0, -4.4388],
+                        "out": [0, 4.4388],
+                        "symmetric": true
+                      },
+                      { "id": 129, "p": [1173.6673, 400], "in": [4.4388, 0], "out": [-4.4388, 0], "symmetric": true },
+                      {
+                        "id": 130,
+                        "p": [1165.6302, 391.9629],
+                        "in": [0, 4.4388],
+                        "out": [0, -4.4388],
+                        "symmetric": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": 145,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "transform": { "position": [-0.0013, 1420.8587], "pivot": [961.1237, 123.9973] },
+                    "points": [
+                      {
+                        "id": 149,
+                        "p": [1183.6673, 393.9258],
+                        "in": [-4.4388, 0],
+                        "out": [4.4388, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 150,
+                        "p": [1191.7044, 401.9629],
+                        "in": [0, -4.4388],
+                        "out": [0, 4.4388],
+                        "symmetric": true
+                      },
+                      { "id": 151, "p": [1183.6673, 410], "in": [4.4388, 0], "out": [-4.4388, 0], "symmetric": true },
+                      {
+                        "id": 152,
+                        "p": [1175.6302, 401.9629],
+                        "in": [0, 4.4388],
+                        "out": [0, -4.4388],
+                        "symmetric": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              "after": 187
+            },
+            {
+              "create": {
+                "id": 138,
+                "name": "Layer 16 3",
+                "transform": { "position": [516.3327, -10.3287], "pivot": [1183.6673, 397.6491] },
+                "shapes": [
+                  {
+                    "id": 139,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "transform": { "position": [9.9987, 1017.426], "pivot": [434.791, 537.7587] },
+                    "points": [
+                      {
+                        "id": 140,
+                        "p": [1183.6673, 393.9258],
+                        "in": [-4.4388, 0],
+                        "out": [4.4388, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 141,
+                        "p": [1191.7044, 401.9629],
+                        "in": [0, -4.4388],
+                        "out": [0, 4.4388],
+                        "symmetric": true
+                      },
+                      { "id": 142, "p": [1183.6673, 410], "in": [4.4388, 0], "out": [-4.4388, 0], "symmetric": true },
+                      {
+                        "id": 143,
+                        "p": [1175.6302, 401.9629],
+                        "in": [0, 4.4388],
+                        "out": [0, -4.4388],
+                        "symmetric": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": 144,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "transform": { "position": [-0.0013, 1421.1874], "pivot": [444.791, 133.9973] },
+                    "points": [
+                      {
+                        "id": 153,
+                        "p": [1193.6673, 403.9258],
+                        "in": [-4.4388, 0],
+                        "out": [4.4388, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 154,
+                        "p": [1201.7044, 411.9629],
+                        "in": [0, -4.4388],
+                        "out": [0, 4.4388],
+                        "symmetric": true
+                      },
+                      { "id": 155, "p": [1193.6673, 420], "in": [4.4388, 0], "out": [-4.4388, 0], "symmetric": true },
+                      {
+                        "id": 156,
+                        "p": [1185.6302, 411.9629],
+                        "in": [0, 4.4388],
+                        "out": [0, -4.4388],
+                        "symmetric": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              "after": 131
+            },
+            {
+              "create": {
+                "id": 132,
+                "name": "Layer 16 2",
+                "transform": { "position": [131.5126, -10], "pivot": [1186.2184, 395.9078] },
+                "shapes": [
+                  {
+                    "id": 133,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "transform": { "position": [131.6525, 1017.0973], "pivot": [697.9572, 537.7587] },
+                    "points": [
+                      {
+                        "id": 134,
+                        "p": [1183.6673, 393.9258],
+                        "in": [-4.4388, 0],
+                        "out": [4.4388, 0],
+                        "symmetric": true
+                      },
+                      {
+                        "id": 135,
+                        "p": [1191.7044, 401.9629],
+                        "in": [0, -4.4388],
+                        "out": [0, 4.4388],
+                        "symmetric": true
+                      },
+                      { "id": 136, "p": [1183.6673, 410], "in": [4.4388, 0], "out": [-4.4388, 0], "symmetric": true },
+                      {
+                        "id": 137,
+                        "p": [1175.6302, 401.9629],
+                        "in": [0, 4.4388],
+                        "out": [0, -4.4388],
+                        "symmetric": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              "after": 138
+            },
+            {
+              "create": {
+                "id": 125,
+                "name": "Layer 15",
+                "transform": { "position": [3.1903, 17.9927], "scale": [0.9606, 0.9606], "pivot": [1432.7508, 370.3731] },
+                "shapes": [
+                  {
+                    "id": 120,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "transform": { "position": [-73.1217, 1030.3441], "scale": [1.5788, 0.8217], "pivot": [1011.5786, 543.9539] },
+                    "points": [
+                      { "id": 121, "p": [1155.8987, 370], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 122, "p": [1506.6083, 370], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 123, "p": [1506.6083, 373.8269], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 124, "p": [1155.8987, 373.8269], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  },
+                  {
+                    "id": 148,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "transform": { "position": [-79.7156, 1541.8868], "scale": [1.5788, 0.8217], "pivot": [1018.1725, 32.4112] },
+                    "points": [
+                      { "id": 161, "p": [1162.4925, 382.67], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 162, "p": [1513.2021, 382.67], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 163, "p": [1513.2021, 386.4969], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 164, "p": [1162.4925, 386.4969], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 132
+            },
+            {
+              "create": {
+                "id": 108,
+                "name": "Layer 14",
+                "transform": { "position": [-104.3628, -34.5102], "pivot": [1657.3119, 355.7572] },
+                "shapes": [
+                  {
+                    "id": 107,
+                    "closed": true,
+                    "text": { "string": "Coarse", "weight": 700, "size": 48, "width": 200.4874 },
+                    "fill": "#474747FF",
+                    "transform": { "position": [1262.5357, 1347.8159], "pivot": [-197.0506, 231.5503] },
+                    "points": []
+                  },
+                  {
+                    "id": 146,
+                    "closed": true,
+                    "text": { "string": "Fine", "weight": 700, "size": 48, "width": 200.4874 },
+                    "fill": "#474747FF",
+                    "transform": { "position": [1262.5357, 1761.5774], "pivot": [-197.0505, -182.2112] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 125
+            },
+            {
+              "create": {
+                "id": 95,
+                "name": "Layer 3 2",
+                "transform": { "position": [110.6074, 51.0546], "pivot": [731.8858, 68.9826] },
+                "shapes": [
+                  {
+                    "id": 96,
+                    "closed": true,
+                    "text": { "string": "Committee of Experts", "weight": 800, "size": 96, "width": 1622.2473 },
+                    "fill": "#00374AFF",
+                    "transform": { "position": [39.3913, 1056.6241], "pivot": [811.1237, 437.1773] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 89
+            },
+            {
+              "create": {
+                "id": 101,
+                "name": "Layer 4 2",
+                "transform": { "position": [1840.2137, 0], "scale": [1.0016, 1], "pivot": [198.4737, 210] },
+                "shapes": [
+                  {
+                    "id": 102,
+                    "closed": false,
+                    "fill": "#00374AFF",
+                    "stroke": { "color": "#00374AFF", "width": 9, "cap": "square" },
+                    "transform": { "position": [9.8481, 1020.3563], "pivot": [949.9796, 524.4997] },
+                    "points": [
+                      { "id": 103, "p": [150, 210], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 104, "p": [246.9473, 210], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 95
+            },
+            {
+              "create": {
+                "id": 105,
+                "name": "Layer 5",
+                "transform": { "pivot": [1015.1916, 272.0536] },
+                "shapes": [
+                  {
+                    "id": 106,
+                    "closed": true,
+                    "text": {
+                      "string": "Every sensor is an expert on what attributes it can extract. Identity is expressed as two integers, coarse and fine. Broadly, the coarse score answers the question “what is this?” while the fine score answers “which one is this?” A deeper network learns how the attributes from each expert contribute to the coarse and fine scores, enabling each expert to find only the attributes that produce the strongest signal.",
+                      "weight": 700,
+                      "weights": [
+                        { "start": 61, "length": 354, "weight": 400 }
+                      ],
+                      "size": 48,
+                      "width": 809.5497
+                    },
+                    "fill": "#474747FF",
+                    "transform": { "position": [154.5437, 1313.3057], "pivot": [806.5787, 231.5503] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 101
+            },
+            {
+              "create": {
+                "id": 182,
+                "name": "Layer 20",
+                "transform": { "position": [-44.2062, 26.7994], "scale": [0.6632, 0.6632], "pivot": [1304.9298, 772.4306] },
+                "shapes": [
+                  {
+                    "id": 181,
+                    "closed": true,
+                    "image": { "src": "images/41fdf85a03a80e02.png" },
+                    "transform": { "position": [728.5682, 3086.8295], "scale": [0.2843, 0.2843], "pivot": [124.6263, -1190.1523] },
+                    "points": [
+                      { "id": 183, "p": [1072.2554, 416.3585], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 184, "p": [1537.6041, 416.3585], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 185, "p": [1537.6041, 1128.5027], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 186, "p": [1072.2554, 1128.5027], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 105
+            },
+            {
+              "set": 10,
+              "props": { "transform.position": [29.5272, -222.8382], "transform.pivot": [851.9415, 63.5906] }
+            },
+            {
+              "set": 12,
+              "props": { "transform.position": [-0.0003, -259.106], "transform.pivot": [958.7073, 150.913] }
+            },
+            {
+              "set": 30,
+              "props": { "transform.position": [-957.7748, 95.1377], "transform.pivot": [554.8154, 516.6442] }
+            },
+            {
+              "set": 41,
+              "props": { "transform.position": [983.1475, 95.1377], "transform.pivot": [554.8153, 516.6442] }
+            },
+            {
+              "set": 46,
+              "props": { "transform.position": [-910.7224, -118.4447], "transform.pivot": [556.7101, 660.8195] }
+            },
+            {
+              "set": 53,
+              "props": { "transform.position": [1030.1999, -118.4447], "transform.pivot": [556.7101, 660.8195] }
+            },
+            {
+              "set": 65,
+              "props": { "transform.position": [976.8199, 1.3157], "transform.pivot": [1384.0024, 621.6504] }
+            },
+            {
+              "set": 81,
+              "props": { "transform.position": [-963.0886, 0.0262], "transform.pivot": [541.3342, 637.3519] }
+            },
+            {
+              "set": 85,
+              "props": { "transform.position": [-786.9892, 519.591], "transform.pivot": [362.5722, 103.3751] }
+            },
+            {
+              "set": 90,
+              "props": { "transform.position": [2004.3836, 519.591], "transform.pivot": [356.4386, 103.3751] }
+            }
+          ]
+        },
+        {
+          "id": 193,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            { "delete": 11 },
+            { "delete": 31 },
+            { "delete": 40 },
+            { "delete": 47 },
+            { "delete": 52 },
+            { "delete": 66 },
+            { "delete": 80 },
+            { "delete": 86 },
+            { "delete": 89 },
+            { "delete": 12 },
+            {
+              "set": 165,
+              "props": { "transform.position": [469.436, 18.0246], "transform.pivot": [1228.0889, 445.5094] }
+            },
+            {
+              "set": 170,
+              "props": { "transform.position": [482.5924, -104.1819], "transform.pivot": [952.1866, 568.3117] }
+            },
+            {
+              "set": 180,
+              "props": { "transform.position": [-526.3327, 8.422] }
+            },
+            {
+              "set": 175,
+              "props": { "transform.position": [287.2056, -35.6177], "transform.pivot": [1412.7944, 506.7774] }
+            },
+            {
+              "set": 188,
+              "props": { "transform.position": [287.2056, -35.6177], "transform.pivot": [1412.7944, 506.7774] }
+            },
+            {
+              "set": 126,
+              "props": { "transform.position": [0, -3.7614], "transform.pivot": [1173.6673, 391.9629] }
+            },
+            {
+              "set": 145,
+              "props": { "transform.position": [-10, 400], "transform.pivot": [1438.1057, 358.1042] }
+            },
+            {
+              "set": 139,
+              "props": { "transform.position": [0, -3.4327], "transform.pivot": [1173.6673, 391.9629] }
+            },
+            {
+              "set": 144,
+              "props": { "transform.position": [-10, 400.3287], "transform.pivot": [921.7729, 368.1042] }
+            },
+            {
+              "set": 133,
+              "props": { "transform.position": [121.6538, -3.7614], "transform.pivot": [1173.6673, 391.9629] }
+            },
+            {
+              "set": 120,
+              "props": { "transform.position": [101.4973, -1.7114], "transform.pivot": [1331.2535, 371.9134] }
+            },
+            {
+              "set": 148,
+              "props": { "transform.position": [91.913, 426.2721], "transform.pivot": [1332.6808, 329.0145] }
+            },
+            {
+              "set": 107,
+              "props": { "transform.position": [1252.537, 326.9572], "transform.pivot": [404.7749, 28.8] }
+            },
+            {
+              "set": 146,
+              "props": { "transform.position": [1252.537, 740.7187], "transform.pivot": [279.9314, 51.8958] }
+            },
+            {
+              "set": 96,
+              "props": { "transform.position": [29.3926, 35.7654], "transform.pivot": [852.0761, 408.8626] }
+            },
+            {
+              "set": 101,
+              "props": { "transform.position": [1850.2125, 0] }
+            },
+            {
+              "set": 102,
+              "props": { "transform.position": [-0.1347, -0.5024], "transform.pivot": [960.1347, 496.185] }
+            },
+            {
+              "set": 106,
+              "props": { "transform.position": [144.545, 292.447], "transform.pivot": [815.455, 203.2357] }
+            },
+            {
+              "set": 181,
+              "props": { "transform.position": [-131.2625, 142.9504], "transform.pivot": [1304.9298, 772.4306] }
+            }
+          ]
+        },
+        {
+          "id": 194,
+          "transition": { "duration": 0.8, "curve": [0.7712, 1.2455, 0.8269, 1.0409] },
+          "changes": [
+            {
+              "set": 101,
+              "props": { "transform.position": [0.0766, 0] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "keyframes": [
+        {
+          "id": 196,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "set": 165,
+              "props": { "transform.position": [20.7706, 19.2162], "transform.pivot": [1228.0889, 445.5094] }
+            },
+            {
+              "set": 170,
+              "props": { "transform.position": [95.7053, -470.0292], "transform.pivot": [863.0017, 1096.84] }
+            },
+            {
+              "set": 180,
+              "props": { "transform.position": [-526.3327, 9.6136] }
+            },
+            {
+              "set": 175,
+              "props": { "transform.position": [817.9388, -560.5574], "transform.pivot": [142.0612, 1187.3682] }
+            },
+            {
+              "set": 188,
+              "props": { "transform.position": [784.2133, 813.8118], "transform.pivot": [185.7867, -594.5185] }
+            },
+            {
+              "set": 126,
+              "props": { "transform.position": [-449.3833, -3.7614], "transform.pivot": [1409.3833, 630.5722] }
+            },
+            {
+              "set": 145,
+              "props": { "transform.position": [-459.3833, 400], "transform.pivot": [1419.3833, 226.8108] }
+            },
+            {
+              "set": 139,
+              "props": { "transform.position": [-449.3833, -3.4327], "transform.pivot": [893.0506, 640.5722] }
+            },
+            {
+              "set": 144,
+              "props": { "transform.position": [-459.3833, 400.3287], "transform.pivot": [903.0506, 236.8108] }
+            },
+            {
+              "set": 133,
+              "props": { "transform.position": [-327.7295, -3.7614], "transform.pivot": [1156.2169, 640.5722] }
+            },
+            {
+              "set": 120,
+              "props": { "transform.position": [-376.4536, -55.6107], "transform.pivot": [1313.7421, 674.2089] }
+            },
+            {
+              "set": 148,
+              "props": { "transform.position": [-383.0474, 455.932], "transform.pivot": [1320.3359, 162.6662] }
+            },
+            {
+              "set": 107,
+              "props": { "transform.position": [803.1537, 326.9572], "transform.pivot": [261.2091, 334.3638] }
+            },
+            {
+              "set": 146,
+              "props": { "transform.position": [803.1537, 740.7187], "transform.pivot": [261.2091, -79.3977] }
+            },
+            {
+              "set": 105,
+              "props": { "transform.position": [-981.5009, 0] }
+            },
+            {
+              "set": 181,
+              "props": { "transform.position": [-1703.5935, 1157.3197], "transform.pivot": [2555.0956, -644.8609] }
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "set": 188,
+              "props": { "opacity": 0 }
+            },
+            {
+              "set": 107,
+              "props": { "opacity": 0 }
+            },
+            {
+              "set": 146,
+              "props": { "opacity": 0 }
+            }
+          ]
+        },
+        {
+          "id": 203,
+          "transition": { "duration": 0.8, "curve": "ease-in-out" },
+          "changes": [
+            { "delete": 187 },
+            { "delete": 108 },
+            { "delete": 105 },
+            {
+              "set": 165,
+              "props": { "transform.position": [664.1393, 442.1698], "transform.pivot": [349.3007, 432.9484] }
+            },
+            {
+              "set": 170,
+              "props": { "transform.position": [-27.9314, 315.8157], "transform.pivot": [1041.3714, 559.3024] }
+            },
+            {
+              "set": 175,
+              "props": { "transform.position": [-1142.3744, 443.6268], "transform.pivot": [2683.5277, 421.8777] }
+            },
+            {
+              "set": 126,
+              "props": { "transform.position": [-449.4634, 410], "transform.pivot": [1464.284, 465.1181] }
+            },
+            {
+              "set": 145,
+              "props": {
+                "transform.position": [-780.2285, 43.3321],
+                "transform.pivot": [1428.9223, 477.5531],
+                "transform.rotation": 90
+              }
+            },
+            {
+              "set": 139,
+              "props": { "transform.position": [-449.4634, 410.3287], "transform.pivot": [947.9513, 475.1181] }
+            },
+            {
+              "set": 144,
+              "props": {
+                "transform.position": [-780.2285, 43.6608],
+                "transform.pivot": [912.5896, 487.5531],
+                "transform.rotation": 90
+              }
+            },
+            {
+              "set": 133,
+              "props": { "transform.position": [-327.8096, 410], "transform.pivot": [1211.1176, 475.1181] }
+            },
+            {
+              "set": 120,
+              "props": {
+                "transform.position": [-355.5845, 412.4958],
+                "transform.scale": [1.5788, 0.8217],
+                "transform.pivot": [1349.942, 464.5942]
+              }
+            },
+            {
+              "set": 148,
+              "props": {
+                "transform.position": [-713.4119, 27.995],
+                "transform.scale": [1.5788, 0.8217],
+                "transform.pivot": [1326.6256, 480.3329],
+                "transform.rotation": 90
+              }
+            },
+            {
+              "set": 181,
+              "props": {
+                "transform.position": [-2223.5463, -332.2379],
+                "transform.scale": [0.2843, 0.2843],
+                "transform.pivot": [2605.6325, 684.9688],
+                "transform.rotation": 90
+              }
+            }
+          ]
+        },
+        {
+          "id": 210,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            { "delete": 144 },
+            {
+              "create": {
+                "id": 213,
+                "name": "Layer 10",
+                "transform": { "position": [-134.9759, 222.3354], "scale": [1, 3.876], "pivot": [866.1112, 330.5013] },
+                "shapes": [
+                  {
+                    "id": 212,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "transform": { "position": [-6.8514, -3.4262], "scale": [0.1806, 1.053], "pivot": [866.1112, 330.5013] },
+                    "points": [
+                      { "id": 214, "p": [857.7499, 265.8371], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 215, "p": [874.4726, 265.8371], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 216, "p": [874.4726, 395.1655], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 217, "p": [857.7499, 395.1655], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 182
+            },
+            {
+              "set": 148,
+              "props": { "opacity": 0 }
+            },
+            {
+              "set": 181,
+              "props": { "opacity": 0 }
+            }
+          ]
+        },
+        {
+          "id": 218,
+          "transition": { "duration": 0.2, "curve": "ease-in-out" },
+          "changes": [
+            { "delete": 182 },
+            { "delete": 148 },
+            {
+              "set": 125,
+              "props": { "transform.position": [163.1717, -3.286], "transform.scale": [1.2933, 1.0099] }
+            },
+            {
+              "set": 213,
+              "props": { "transform.position": [-224.9759, 222.3354] }
+            }
+          ]
+        },
+        {
+          "id": 219,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "create": {
+                "id": 221,
+                "name": "Layer 10 2",
+                "transform": { "pivot": [1029.7191, 329.78] },
+                "shapes": [
+                  {
+                    "id": 220,
+                    "closed": true,
+                    "text": {
+                      "string": "Identity is now a coordinate in a 2-dimensional latent space.",
+                      "size": 48,
+                      "width": 470.2461
+                    },
+                    "fill": "#333333FF",
+                    "opacity": 0,
+                    "transform": { "position": [140, 368.8861], "pivot": [235.1231, 115.2] },
+                    "points": []
+                  },
+                  {
+                    "id": 222,
+                    "closed": true,
+                    "text": {
+                      "string": "Two sensors can agree where a target belongs regardless of why.",
+                      "size": 48,
+                      "width": 470.2461
+                    },
+                    "fill": "#333333FF",
+                    "opacity": 0,
+                    "transform": { "position": [1377.3079, 368.8861], "pivot": [235.1231, 115.2] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 213
+            },
+            {
+              "set": 126,
+              "props": { "transform.position": [-446.0188, 282.4149], "transform.pivot": [1173.6673, 391.9629] }
+            },
+            {
+              "set": 145,
+              "props": { "transform.position": [-371.924, -25.0397], "transform.pivot": [1183.6673, 401.9629] }
+            },
+            {
+              "set": 138,
+              "props": { "transform.position": [485.3907, -126.8903] }
+            },
+            {
+              "set": 132,
+              "props": { "transform.position": [151.4997, -244.0649] }
+            }
+          ]
+        },
+        {
+          "id": 223,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "set": 220,
+              "props": { "opacity": 1 }
+            },
+            {
+              "set": 222,
+              "props": {
+                "text.string": "This latent space is a projection of the much higher-order attribute spaces.",
+                "opacity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "keyframes": [
+        {
+          "id": 225,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "set": 220,
+              "props": { "opacity": 0 }
+            },
+            {
+              "set": 222,
+              "props": { "opacity": 0 }
+            }
+          ]
+        },
+        {
+          "id": 226,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            { "delete": 221 },
+            {
+              "create": {
+                "id": 233,
+                "name": "Layer 10 2",
+                "transform": { "pivot": [132.5555, 154.8431] },
+                "shapes": [
+                  {
+                    "id": 227,
+                    "closed": true,
+                    "fill": "#FFFFFFFF",
+                    "points": [
+                      { "id": 229, "p": [83.6856, 67.4287], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 230, "p": [181.4254, 67.4287], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 231, "p": [181.4254, 242.2575], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 232, "p": [83.6856, 242.2575], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 213
+            },
+            {
+              "set": 212,
+              "props": { "transform.position": [-2117.2244, 24.0687], "transform.pivot": [2840.2375, 349.2241] }
+            },
+            {
+              "set": 165,
+              "props": { "transform.position": [237.6927, 1251.9887], "transform.pivot": [259.7896, -533.2923] }
+            },
+            {
+              "set": 170,
+              "props": { "transform.position": [-465.8837, 1001.3227], "transform.pivot": [963.3659, -282.6263] }
+            },
+            {
+              "set": 175,
+              "props": { "transform.position": [-1554.1753, 1420.3299], "transform.pivot": [2578.5453, -711.2471] }
+            },
+            {
+              "set": 126,
+              "props": { "transform.position": [-938.7927, 385.1388], "transform.pivot": [1436.8299, 333.5576] }
+            },
+            {
+              "set": 145,
+              "props": { "transform.position": [-924.6792, 495.8013], "transform.pivot": [1422.7165, 222.8951] }
+            },
+            {
+              "set": 139,
+              "props": { "transform.position": [-942.2372, 513.0527], "transform.pivot": [954.8838, 332.534] }
+            },
+            {
+              "set": 133,
+              "props": { "transform.position": [-820.5834, 512.724], "transform.pivot": [1167.1211, 450.0374] }
+            },
+            {
+              "set": 120,
+              "props": { "transform.position": [-747.4358, 570.691], "transform.pivot": [1331.2535, 147.8603] }
+            },
+            { "order": [213, 233, 13, 180, 131, 138, 132, 125, 95, 101] }
+          ]
+        },
+        {
+          "id": 234,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "create": {
+                "id": 236,
+                "name": "Layer 11",
+                "transform": { "pivot": [1179.7567, 491.1896] },
+                "shapes": [
+                  {
+                    "id": 235,
+                    "closed": true,
+                    "text": {
+                      "string": "The latent space is mathematically unbounded, so it naturally contains objects it was never trained on, like this",
+                      "size": 48,
+                      "align": "center",
+                      "width": 845.1997
+                    },
+                    "fill": "#474747FF",
+                    "opacity": 0,
+                    "transform": { "position": [839.3042, 280.3015], "pivot": [422.5999, 86.4] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 101
+            },
+            {
+              "create": {
+                "id": 238,
+                "name": "Layer 12",
+                "transform": { "position": [0, 8.0371], "pivot": [1148.1034, 791.7468] },
+                "shapes": [
+                  {
+                    "id": 237,
+                    "closed": true,
+                    "image": { "src": "images/708d945e9f87db82.png" },
+                    "opacity": 0,
+                    "transform": { "position": [113.8006, -183.085], "scale": [0.6371, 0.6371], "pivot": [1148.1034, 791.7468] },
+                    "points": [
+                      { "id": 239, "p": [733.1034, 589.2468], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 240, "p": [1563.1034, 589.2468], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 241, "p": [1563.1034, 994.2468], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 242, "p": [733.1034, 994.2468], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 236
+            },
+            {
+              "set": 213,
+              "props": { "transform.position": [42.0864, -30.9572], "transform.scale": [1.5329, 6.6543] }
+            },
+            {
+              "set": 233,
+              "props": { "transform.position": [12.0741, 6.7708] }
+            },
+            {
+              "set": 125,
+              "props": { "transform.position": [2491.3092, -159.0383], "transform.scale": [3.3613, 1.3016] }
+            }
+          ]
+        },
+        {
+          "id": 243,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "set": 235,
+              "props": { "opacity": 1 }
+            },
+            {
+              "set": 237,
+              "props": { "opacity": 1 }
+            }
+          ]
+        },
+        {
+          "id": 244,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "create": {
+                "id": 246,
+                "name": "Layer 13",
+                "transform": { "pivot": [1467.179, 836.7889] },
+                "shapes": [
+                  {
+                    "id": 245,
+                    "closed": true,
+                    "text": { "string": "…whatever it is.", "size": 48, "align": "center", "width": 392.1166 },
+                    "fill": "#474747FF",
+                    "opacity": 0,
+                    "transform": { "position": [1065.8458, 788.1253], "pivot": [196.0583, 28.8] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 238
+            }
+          ]
+        },
+        {
+          "id": 247,
+          "transition": { "duration": 2, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "create": {
+                "id": 249,
+                "name": "Layer 14",
+                "transform": { "position": [-18.3062, 383.1858], "scale": [0.6866, 7.6758], "pivot": [2017.3788, 1065.537] },
+                "shapes": [
+                  {
+                    "id": 248,
+                    "closed": true,
+                    "fill": "#474747FF",
+                    "points": [
+                      { "id": 250, "p": [2014.4003, 994.8572], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 251, "p": [2020.3574, 994.8572], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 252, "p": [2020.3574, 1136.2168], "in": [0, 0], "out": [0, 0], "smooth": false },
+                      { "id": 253, "p": [2014.4003, 1136.2168], "in": [0, 0], "out": [0, 0], "smooth": false }
+                    ]
+                  }
+                ]
+              },
+              "after": 246
+            },
+            {
+              "create": {
+                "id": 255,
+                "name": "Layer 15 2",
+                "transform": { "pivot": [2870.0626, 957.7524] },
+                "shapes": [
+                  {
+                    "id": 254,
+                    "closed": true,
+                    "text": { "string": "What I’m looking at next", "weight": 800, "size": 96, "width": 1622.2473 },
+                    "fill": "#00374AFF",
+                    "transform": { "position": [2050.7936, 923.611], "pivot": [811.1237, 57.6] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 249
+            },
+            {
+              "create": {
+                "id": 257,
+                "name": "Layer 16 4",
+                "transform": { "pivot": [2883.9049, 1411.0013] },
+                "shapes": [
+                  {
+                    "id": 256,
+                    "closed": true,
+                    "text": {
+                      "string": "What shape is a real object’s identity? In practice, identity will not be a discrete point. Inference will be noisy, and many points in a region will encode the same object. Moreover, I expect drift to be correlated with differences in observation angle at first. Understanding the geometry of those encoding regions will help me improve both the model and inference confidence accuracy.\n\nDoes identity inference decohere as objects become dissimilar to training data? Sensor experts learn to agree on the encodings for objects in their training data, but it’s not clear how closely those experts will continue to agree as they encounter objects that lack the features that are convenient in the training data.",
+                      "weight": 800,
+                      "weights": [
+                        { "start": 0, "length": 40, "weight": 700 },
+                        { "start": 40, "length": 349, "weight": 400 },
+                        { "start": 389, "length": 80, "weight": 700 },
+                        { "start": 469, "length": 241, "weight": 400 }
+                      ],
+                      "size": 48,
+                      "width": 1622.2473
+                    },
+                    "fill": "#474747FF",
+                    "transform": { "position": [2050.7936, 1080], "pivot": [811.1237, 345.6] },
+                    "points": []
+                  }
+                ]
+              },
+              "after": 255
+            },
+            {
+              "set": 246,
+              "props": { "transform.position": [4.722, -8.0371] }
+            },
+            {
+              "set": 245,
+              "props": { "opacity": 1 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "keyframes": [
+        {
+          "id": 259,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            {
+              "set": 212,
+              "props": {
+                "transform.position": [-6892.5673, 27.18],
+                "transform.scale": [0.1806, 1.053],
+                "transform.pivot": [7158.7979, 407.9271]
+              }
+            },
+            {
+              "set": 227,
+              "props": { "transform.position": [-1895.7597, 0], "transform.pivot": [1872.3262, 988.8513] }
+            },
+            {
+              "set": 165,
+              "props": { "transform.position": [-5439.4801, 496.38], "transform.pivot": [5428.3794, 499.2422] }
+            },
+            {
+              "set": 170,
+              "props": { "transform.position": [-5478.6919, 378.5547], "transform.pivot": [5467.5912, 617.0675] }
+            },
+            {
+              "set": 175,
+              "props": { "transform.position": [-8125.5003, 486.3866], "transform.pivot": [8640.4736, 499.6219] }
+            },
+            {
+              "set": 126,
+              "props": { "transform.position": [-2834.5524, 385.1388], "transform.pivot": [2823.193, 610.4833] }
+            },
+            {
+              "set": 145,
+              "props": { "transform.position": [-1711.0017, 2159.09], "transform.pivot": [1699.6422, -1163.4679] }
+            },
+            {
+              "set": 139,
+              "props": { "transform.position": [-2837.9969, 513.0527], "transform.pivot": [2341.2468, 609.4597] }
+            },
+            {
+              "set": 133,
+              "props": { "transform.position": [-2716.3431, 512.724], "transform.pivot": [2553.484, 726.963] }
+            },
+            {
+              "set": 120,
+              "props": { "transform.position": [-1222.6665, 515.4937], "transform.pivot": [1484.6145, 457.4358] }
+            },
+            {
+              "set": 96,
+              "props": { "transform.position": [-1866.3671, 35.7654], "transform.pivot": [1744.4003, 908.8021] }
+            },
+            {
+              "set": 102,
+              "props": { "transform.position": [-1892.866, -0.5024], "transform.pivot": [1881.7653, 996.1245] }
+            },
+            {
+              "set": 235,
+              "props": { "transform.position": [-1056.4555, 280.3015], "transform.pivot": [1045.0961, 715.3206] }
+            },
+            {
+              "set": 237,
+              "props": { "transform.position": [-2136.5406, -398.9243], "transform.pivot": [2125.1812, 1386.5094] }
+            },
+            {
+              "set": 245,
+              "props": { "transform.position": [-829.9139, 788.1253], "transform.pivot": [813.8325, 215.5339] }
+            },
+            {
+              "set": 248,
+              "props": { "transform.position": [-2761.1612, 0], "transform.pivot": [1850.3594, 1006.5069] }
+            },
+            {
+              "set": 254,
+              "props": { "transform.position": [155.0339, 923.611], "transform.pivot": [-166.3933, 72.0111] }
+            },
+            {
+              "set": 256,
+              "props": { "transform.position": [155.0339, 1080], "transform.pivot": [-166.3933, -84.3779] }
+            }
+          ]
+        },
+        {
+          "id": 260,
+          "transition": { "duration": 0.5, "curve": "ease-in-out" },
+          "changes": [
+            { "delete": 213 },
+            { "delete": 233 },
+            { "delete": 13 },
+            { "delete": 180 },
+            { "delete": 131 },
+            { "delete": 138 },
+            { "delete": 132 },
+            { "delete": 95 },
+            { "delete": 101 },
+            { "delete": 236 },
+            { "delete": 238 },
+            { "delete": 246 },
+            {
+              "set": 120,
+              "props": { "transform.position": [-1220.2558, -175.9485], "transform.pivot": [1488.7794, 879.1683] }
+            },
+            {
+              "set": 248,
+              "props": { "transform.position": [-2761.1612, -104.4988], "transform.pivot": [1882.5516, 1065.2703] }
+            },
+            {
+              "set": 254,
+              "props": { "transform.position": [155.0339, 121.5036], "transform.pivot": [-144.2908, 523.0645] }
+            },
+            {
+              "set": 256,
+              "props": { "transform.position": [155.0339, 277.8926], "transform.pivot": [-144.2908, 366.6755] }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
